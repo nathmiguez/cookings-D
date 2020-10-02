@@ -9,7 +9,8 @@
     font-family:'Dancing Script', cursive;
     text-align: center;
     padding:100px;
-    color: dimgray;    
+    color:white ;    
+    font-size: 30px;
 }
 .header{
     background-color: ghostwhite;
@@ -18,10 +19,22 @@
     justify-content: space-between;
     height: 90px;
 }
+ .header a{
+     color: black;
+     text-decoration: none;
+     height: inherit;
+     align-items: center;
+     padding: 0px 10px;
+     display: flex;
+ }
+ .logo img{
+     width: 150px;
+ }
 .menu{
     height: inherit;
 }
 ul{
+    list-style: none;
     display: flex;
     height: inherit;
     margin: 0px;
@@ -34,11 +47,13 @@ ul{
     background-color: darkslategray;
     color: white;
     text-align: center;
+    padding: 50px 0px;
 }
 .curso{
 background-color: beige;
 color: black;
 text-align: center;
+padding: 60px 0px;
 }   
 .botoncurso{
     width: 200px;
@@ -62,6 +77,7 @@ text-align: center;
     background-color: grey;
     color: ivory;
     text-align: center;
+    padding: 60px 0px;
 }   
 .botonsopita{
     width: 250px;
@@ -81,8 +97,55 @@ text-align: center;
     font-size:25px;
     cursor: pointer;
     border: none;
+    color: white;
 }
-.conainer1{
-     color: lemonchiffon;
-     display: flex;
-}
+    .container1{
+        background: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .container2{
+        background: indigo;
+    }
+    
+    .col1-container1{
+        width: 400px;
+    
+    }
+    
+    .col1-container2{
+        width: 200px;
+    }
+    
+    
+    .col1-container3{
+        width: 300px;
+    }
+    
+    .row1-contacto{
+        display: flex;
+        margin: 10px 0px;
+        align-items: center;
+    }
+    
+    .row2-contacto{
+        display: flex;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    .row1-redes img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .row1-redes{
+        margin: 10px 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    
+    
